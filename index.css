@@ -6,7 +6,8 @@ body{
 .back-img{
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
+    margin-bottom: 3%;
 }
 
 .home-heading{
@@ -31,23 +32,27 @@ body{
     font-family: 'Poppins';
 }
 
-.form1-card{
+.form1-card {
     border: 1px solid silver;
-    width: 20%;
+    width: 25%;
     text-align: center;
-    padding: 10px 50px 10px 50px;
+    padding: 0px 50px 0px 50px;
     position: absolute;
+    top: 0;
+    background-color: white;
+    /* height: 70vh; */
+    margin-top: 2%;
 }
 
 .form1-heading{
     font-weight: 500;
 }
 
-.form1-desc{
+.form1-desc {
     font-weight: 100;
     font-size: small;
     color: grey;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .form1-inputs{
@@ -78,5 +83,83 @@ body{
 .form1-last{
     font-weight: 200;
     font-size: small;
+    padding-bottom: 2%;
 }
 
+.selected{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+    
+}
+
+.sub-heading{
+    margin-left: 8.5%;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+.tee-cards{
+    /* border: 1px solid black; */
+    width: 20%;
+}
+
+.tee-img{
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+    /* height: 150px; */
+}
+
+.tee-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+    font-family: 'Poppins';
+    /* margin: 0; */
+}
+
+.tee-name{
+    margin: 0;
+    font-size: small;
+}
+
+.tee-price{
+    margin: 0;
+    /* font-size: small; */
+}
+
+.card-btn{
+    background-color: rgb(76, 180, 76);
+    color: white;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.main-foot{
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.element.style {
+    margin: -20px;
+}
+
+.foot-desc{
+    font-weight: 100;
+    color: gray;
+    font-size: small;
+    margin: -15px;
+}
+
+.last-foot-nav{
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 25px;
+    font-size: small;
+    color: gray;
+    box-shadow: 2px 2px 5px gray;
+}
